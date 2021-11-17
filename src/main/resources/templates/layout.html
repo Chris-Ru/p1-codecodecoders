@@ -5,6 +5,8 @@
 <head>
     <div th:replace="fragments/head :: headfile" th:remove="tag">Standard head for all pages</div>
     <div layout:fragment="head" th:remove="tag">Head details are added by ThymeLeaf layout consumer</div>
+    <div layout:fragment="metadata"></div>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
     <!-- layout contains title to avoid warnings -->
     <title>...</title>
 </head>
