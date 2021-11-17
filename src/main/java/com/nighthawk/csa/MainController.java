@@ -12,6 +12,11 @@ import java.util.List;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class MainController {
 
+    @GetMapping("/aboutus")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+    public String abtus() {
+        return "starters/aboutus";
+    }
+
     @GetMapping("/greet")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         // @RequestParam handles required and default values, name and data are class variables, data looking like JSON
