@@ -97,4 +97,9 @@ public class MainController {
         return "course/timelines";
     }
 
+    @GetMapping("/about")
+    public String about(){
+        return "about";
+    }
+
 }

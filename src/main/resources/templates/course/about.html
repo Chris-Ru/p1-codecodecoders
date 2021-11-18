@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<!-- <head> -->
+
+<head>
+    <div layout:fragment="head" th:remove="tag">
+        <title>Creators</title>
+            <link rel="stylesheet" type="text/css" href="/css/about.css">
+    </div>
+</head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div id="spring_intro" class="articles" style="margin: 30px;">
+        <h1>About</h1>
+        <div>
+            <div class="crop">
+                <img src="/lib/noimagepic.png" th:src="@{/lib/noimagepic.png}">
+            </div>
+            <h2>Christopher Rubin</h2>
+            <p></p> <!-- Write something about yourselves-->
+            <!-- <a href="(google doc link)">AP Journal</a> Later add AP Journal here-->
+            <div class="crop">
+                <img src="/lib/noimagepic.png" th:src="@{/lib/noimagepic.png}">
+            </div>
+            <h2>Yeonjoon Hong</h2>
+            <p>Hi I'm Yeonjoon! :D</p> <!-- Write something about yourselves-->
+            <!-- <a href="(google doc link)">AP Journal</a> Later add AP Journal here-->
+            <div class="crop">
+                <img src="/lib/noimagepic.png" th:src="@{/lib/noimagepic.png}">
+            </div>
+            <h2>Deep/Eshaan Parlikar</h2>
+            <p></p> <!-- Write something about yourselves-->
+            <!-- <a href="(google doc link)">AP Journal</a> Later add AP Journal here-->
+            <div class="crop">
+                <img src="/lib/noimagepic.png" th:src="@{/lib/noimagepic.png}">
+            </div>
+            <h2>Akshit Prathipati</h2>
+            <p></p> <!-- Write something about yourselves-->
+            <!-- <a href="(google doc link)">AP Journal</a> Later add AP Journal here-->
+            <div class="crop">
+                <img src="/lib/noimagepic.png" th:src="@{/lib/noimagepic.png}">
+            </div>
+            <h2>Dane Vestal</h2>
+            <p></p> <!-- Write something about yourselves-->
+            <!-- <a href="(google doc link)">AP Journal</a> Later add AP Journal here-->
+            <div class="crop">
+                <img src="/lib/noimagepic.png" th:src="@{/lib/noimagepic.png}">
+            </div>
+        </div>
+    </div>
+
+</div></body>
+
+</html>
