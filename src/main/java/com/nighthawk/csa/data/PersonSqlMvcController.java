@@ -116,6 +116,8 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
     @RequestMapping(value = "/api/person/post", method = RequestMethod.POST)
     public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
                                              @RequestParam("name") String name,
+                                             @RequestParam("sport") String sport,
+                                             @RequestParam("image") String image,
                                              @RequestParam("dob") String dobString) {
         Date dob;
         try {
@@ -124,7 +126,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
             return new ResponseEntity<>(dobString +" error; try MM-dd-yyyy", HttpStatus.BAD_REQUEST);
         }
         // A person object WITHOUT ID will create a new record
-        Person person = new Person(email, name, dob);
+        Person person = new Person(email, name, sport, image, dob);
         repository.save(person);
         return new ResponseEntity<>(email +" is created successfully", HttpStatus.CREATED);
     }

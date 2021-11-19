@@ -45,14 +45,19 @@ public class Person {
     @Size(min = 2, max = 30, message = "Sport (2 to 30 chars)")
     private String sport;
 
+    @NonNull
+    @Size(min = 2, max = 500, message = "Image Link")
+    private String image;
+
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dob;
 
     /* Initializer used when setting data from an API */
-    public Person(String email, String name, Date dob) {
+    public Person(String email, String name, String sport, String image, Date dob) {
         this.email = email;
         this.name = name;
         this.sport = sport;
+        this.image = image;
         this.dob = dob;
     }
 

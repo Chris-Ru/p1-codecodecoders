@@ -53,6 +53,16 @@
                             <input type="text" th:field="*{name}" id="name">
                             <small th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</small>
                         </div>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <label for="sport">Sport:</label>
+                            <input type="text" th:field="*{sport}" id="sport">
+                            <small th:if="${#fields.hasErrors('sport')}" th:errors="*{sport}">Sport Error</small>
+                        </div>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <label for="image">Image:</label>
+                            <input type="text" th:field="*{image}" id="image">
+                            <small th:if="${#fields.hasErrors('image')}" th:errors="*{image}">Image Error</small>
+                        </div>
                         <div class="form-group mb-2 mr-sm-2">
                             <label for="dob">Birth Date:</label>
                             <input type="date" th:field="*{dob}" id="dob">
