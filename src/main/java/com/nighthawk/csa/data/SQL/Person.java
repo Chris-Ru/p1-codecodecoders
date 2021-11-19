@@ -41,6 +41,10 @@ public class Person {
     @Size(min = 2, max = 30, message = "Name (2 to 30 chars)")
     private String name;
 
+    @NonNull
+    @Size(min = 2, max = 30, message = "Sport (2 to 30 chars)")
+    private String sport;
+
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dob;
 
@@ -48,6 +52,7 @@ public class Person {
     public Person(String email, String name, Date dob) {
         this.email = email;
         this.name = name;
+        this.sport = sport;
         this.dob = dob;
     }
 
