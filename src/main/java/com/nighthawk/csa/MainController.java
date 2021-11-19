@@ -64,42 +64,14 @@ public class MainController {
         return "starters/binary";
     }
 
-    @GetMapping("/snake")   // GET request
-    public String snake() {
-        return "algorithm/snake";
-    }
-
-    @GetMapping("/course/repos")
-    public String courseRepos(Model model) {
-        return "course/repos";
-    }
-
-    @GetMapping("/course/deploy")
-    public String courseDeploy(Model model) {
-        return "course/deploy";
-    }
-
-    @GetMapping("/course/prep")
-    public String coursePrep(Model model) {
-        model.addAttribute("url", "https://padlet.com/jmortensen7/csatime");
-        return "course/timelines";
-    }
-
-    @GetMapping("/course/tri1")
-    public String courseTri1(Model model) {
-        model.addAttribute("url", "https://padlet.com/jmortensen7/csa2022tri1");
-        return "course/timelines";
-    }
-
-    @GetMapping("/course/tri2")
-    public String courseTri2(Model model) {
-        model.addAttribute("url", "https://padlet.com/jmortensen7/csa2022tri2");
-        return "course/timelines";
-    }
 
     @GetMapping("/about")
     public String about(){
         return "about";
     }
 
+    @GetMapping("/deploy")
+    public String deploy(){
+        return "deploy";
+    }
 }
