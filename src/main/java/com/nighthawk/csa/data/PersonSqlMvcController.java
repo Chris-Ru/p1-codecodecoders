@@ -2,9 +2,9 @@ package com.nighthawk.csa.data;
 
 
 import com.nighthawk.csa.data.SQL.*;
+import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -13,8 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import javax.validation.Valid;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 // Built using article: https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html
 // or similar: https://asbnotebook.com/2020/04/11/spring-boot-thymeleaf-form-validation-example/
@@ -32,6 +31,27 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
         return "data/person";
     }
 
+    @GetMapping("/data/personsearch_get")
+    public String person() {
+        return "data/personsearch_get";
+    }
+
+    /*
+    The personSearch API looks across database for partial match to term (k,v) passed by RequestEntity body
+     */
+    @RequestMapping(value = "/api/personsearch_get", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> personSearch(RequestEntity<Object> request) {
+
+        // extract term from RequestEntity
+        JSONObject json = new JSONObject((Map) Objects.requireNonNull(request.getBody()));
+        String term = (String) json.get("term");
+
+        // custom JPA query to filter on term
+        List<Person> list = repository.listLikeNative(term);
+
+        // return resulting list and status, error checking should be added
+        return new ResponseEntity<>(list, HttpStatus.OK);
+    }
     /*  The HTML template Forms and PersonForm attributes are bound
         @return - template for person form
         @param - Person Class
