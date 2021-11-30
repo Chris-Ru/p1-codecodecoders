@@ -25,7 +25,7 @@ import java.util.List;
 
         // custom query to find anything containing term in name or email ignoring case
         public  List<Person>listLike(String term) {
-            return jpa.findByNameContainingIgnoreCaseOrEmailContainingIgnoreCase(term, term);
+            return jpa.findByNameContainingIgnoreCaseOrEmailContainingIgnoreCaseOrSportContainingIgnoreCase(term, term, term);
         }
 
         // custom query to find anything containing term in name or email ignoring case

@@ -13,7 +13,7 @@ Extends the JpaRepository interface from Spring Data JPA.
  */
 public interface PersonJpaRepository extends JpaRepository<Person, Long> {
     // JPA query, findBy does JPA magic with "Name", "Containing", "Or", "Email", "IgnoreCase"
-    List<Person> findByNameContainingIgnoreCaseOrEmailContainingIgnoreCase(String name, String email);
+    List<Person> findByNameContainingIgnoreCaseOrEmailContainingIgnoreCaseOrSportContainingIgnoreCase(String name, String email, String sport);
     /* Custom JPA query articles, there are articles that show custom SQL as well
        https://springframework.guru/spring-data-jpa-query/
        https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods
@@ -21,7 +21,7 @@ public interface PersonJpaRepository extends JpaRepository<Person, Long> {
 
     // Custom JPA query
     @Query(
-            value = "SELECT * FROM Person p WHERE p.name LIKE ?1 or p.email LIKE ?1",
+            value = "SELECT * FROM Person p WHERE p.name LIKE ?1 or p.email LIKE ?1 or p.sport LIKE ?1",
             nativeQuery = true)
     List<Person> findByLikeTermNative(String term);
     /*
