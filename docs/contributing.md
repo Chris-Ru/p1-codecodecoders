@@ -6,6 +6,8 @@
 > - Look over code for errors before committing, keep commits concise
 > - If code requires a file, add it to the repository
 > - If a merge error occurs make sure to go back and restore the original code before doing anything
+> - Using pull requests will help make sure no merge conflicts occur
+> - When everyone agrees on the changes, merge the branch to the main branch
 
 #### Community Expectations:
 > - Pay attention in class (no phones, or PAPER, or other work or games; if violated, Lord Mort will dock points from the seed)
