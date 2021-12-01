@@ -2,6 +2,7 @@
 > - Fork the repository (for basecode)
 > - If working collaboratively on ONE individual task, make sure to converse with them and add comments to the code to help the flow of understanding
 > - Before committing and pushing to main branch, asses the changes with group members before finalizing anything (excludes individual tasks)
+> - Create small, specific commits so that we can track our progress and also be able to identify when and where in the code there's an error, if there is any
 > - Create a new branch for your commit and do a pull request 
 > - Look over code for errors before committing, keep commits concise
 > - If code requires a file, add it to the repository
