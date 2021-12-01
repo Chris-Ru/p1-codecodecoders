@@ -83,7 +83,9 @@ inspiration from https://www.youtube.com/watch?v=QKcVjdLEX_s
                             div.innerHTML = data[i].name + ' ' + data[i].email + ' ' + data[i].sport;
                             resultContainer.appendChild(div);
                             const img = document.createElement('img');    // Create an <img> element.
-                            img.src = data[i].image;                // The image source from JSON array.
+                            img.src = data[i].image;
+                            img.width = 50;
+                            img.height = 50;
                             resultContainer.appendChild(img);
                         }
                     })
