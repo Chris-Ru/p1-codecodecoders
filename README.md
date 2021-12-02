@@ -15,3 +15,4 @@ The major theme of our project is the focus on sports. The major sports are goin
 
 [Sports Wireframe](https://lucid.app/lucidchart/c1356cd5-3ba3-409e-a752-02df1e954741/edit?beaconFlowId=C213948F298B1C9C&page=0_0&invitationId=inv_4de638c3-1fb9-45c5-a368-bd24c931c0ee#)
 [Brain Write](https://docs.google.com/document/d/1iCI8POsuxAbY2hdaYOi8FsVtskmhAqHQ7QhiaQR-WkA/edit?usp=sharing)
+[Brain Write](https://docs.google.com/document/d/1iCI8POsuxAbY2hdaYOi8FsVtskmhAqHQ7QhiaQR-WkA/edit?usp=sharing)
