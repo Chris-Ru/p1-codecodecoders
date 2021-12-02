@@ -14,5 +14,6 @@ Theme: Sports Recruiting Website
 The major theme of our project is the focus on sports. The major sports are going to be present in our website and the latest news will be present. Additonally, we were able have a BMI calculator integrated into our website and sample exercised will be created as well. Finally, we will have a place where people can rate sports and players. Then we will store that in a database and we will have a leaderboard.
 
 [Sports Wireframe](https://lucid.app/lucidchart/c1356cd5-3ba3-409e-a752-02df1e954741/edit?beaconFlowId=C213948F298B1C9C&page=0_0&invitationId=inv_4de638c3-1fb9-45c5-a368-bd24c931c0ee#)
+
 [Brain Write](https://docs.google.com/document/d/1iCI8POsuxAbY2hdaYOi8FsVtskmhAqHQ7QhiaQR-WkA/edit?usp=sharing)
-[Brain Write](https://docs.google.com/document/d/1iCI8POsuxAbY2hdaYOi8FsVtskmhAqHQ7QhiaQR-WkA/edit?usp=sharing)
+
