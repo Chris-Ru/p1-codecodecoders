@@ -11,3 +11,4 @@
 
 Theme: Sports Recruiting Website
  -Each athlete will input pictures stats and other info to create a profile that coaches can view and recruit athletes
+The major theme of our project is the focus on sports. The major sports are going to be present in our website and the latest news will be present. Additonally, we were able have a BMI calculator integrated into our website and sample exercised will be created as well. Finally, we will have a place where people can rate sports and players. Then we will store that in a database and we will have a leaderboard.
