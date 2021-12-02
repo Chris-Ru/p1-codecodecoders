@@ -9,5 +9,5 @@
 | Yeonjoon Hong      | yeonjoonhong      |82470068|[Tasks](https://github.com/Chris-Ru/p1-codecodecoders/issues/assigned/yeonjoonhong)|[Scrumboard](https://github.com/Chris-Ru/p1-codecodecoders/projects/1?card_filter_query=author%3Ayeonjoonhong)|[commits](https://github.com/Chris-Ru/p1-codecodecoders/commits?author=yeonjoonhong)|[profile](https://github.com/yeonjoonhong)|
 
 
-Theme: Sporst Recruiting Website
+Theme: Sports Recruiting Website
  -Each athlete will input pictures stats and other info to create a profile that coaches can view and recruit athletes
