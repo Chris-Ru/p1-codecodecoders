@@ -1,5 +1,7 @@
 # Code Code Coders!!
 
+CSA Journal [Link](https://docs.google.com/document/d/19iVPSA6oKpUzUTcvJZSr133WR1m2qjpYma6liTT9ulo/edit?usp=sharing)
+
 |        Name        | Github Username   |ID                 |Tasks |Scrumboard |Commits |Profile |
 |:------------------:|-------------------|-------------------|------|-----------|--------|--------|
 | Chris Rubin        | Chris-Ru          |72892271|[Tasks](https://github.com/Chris-Ru/p1-codecodecoders/issues/assigned/Chris-Ru)|[Scrumboard](https://github.com/Chris-Ru/p1-codecodecoders/projects/1?card_filter_query=assignee%3AChris-Ru)|[commits](https://github.com/Chris-Ru/p1-codecodecoders/commits?author=Chris-Ru)|[profile](https://github.com/Chris-Ru)|
