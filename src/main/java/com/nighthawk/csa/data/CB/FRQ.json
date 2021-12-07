@@ -25,5 +25,33 @@
       "gist": "https://google.com",
       "output": "code code code!"
     }
+  ],
+
+  "Week 3": [{
+    "name": "Ak",
+    "gist": "https://google.com",
+    "output": "code code code!"
+  },
+    {
+      "name": "Chris",
+      "gist": "https://gist.github.com/Chris-Ru/dac156151637be81476e1e3720adefff",
+      "output": "code code code!"
+    },
+    {
+      "name": "Dane",
+      "gist": "https://google.com",
+      "output": "code code code!"
+    },
+    {
+      "name": "Eshaan",
+      "gist": "https://google.com",
+      "output": "code code code!"
+    },
+    {
+      "name": "Yeonjoon",
+      "gist": "https://google.com",
+      "output": "code code code!"
+    }
   ]
 }
+

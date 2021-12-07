@@ -29,14 +29,32 @@ public class collegeboard {
 
             //Reading the array
             JSONArray week2 = (JSONArray)jsonObject.get("Week 2");
+//            JSONArray week3 = (JSONArray)jsonObject.get("Week 3");
 
             //Printing all the values
+            // Week 2
             for(Object frq2 : week2)
             {
                 System.out.println("\t"+frq2.toString());
             }
 
+            // Week3
+//            for(Object frq3 : week3)
+//            {
+//                System.out.println("\t"+frq3.toString());
+//            }
+
+            // Week4
+//            for(Object frq4 : week4)
+//            {
+//                System.out.println("\t"+frq4.toString());
+//            }
+
+
             model.addAttribute("week2", week2);
+//            model.addAttribute("week3", week3);
+//            model.addAttribute("week4", week4);
+
 
         } catch(Exception fe)
         {
