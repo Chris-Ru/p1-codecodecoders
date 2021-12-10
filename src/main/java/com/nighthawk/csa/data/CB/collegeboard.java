@@ -7,11 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.FileReader;
-
-
 
 @Controller
 public class collegeboard {

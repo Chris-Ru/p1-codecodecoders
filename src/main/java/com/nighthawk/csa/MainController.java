@@ -74,4 +74,9 @@ public class MainController {
     public String deploy(){
         return "deploy";
     }
+
+    @GetMapping("/journal")
+    public String journal(){
+        return "journal";
+    }
 }

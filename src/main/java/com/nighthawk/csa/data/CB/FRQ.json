@@ -3,54 +3,55 @@
     {
       "name": "Ak",
       "gist": "https://gist.github.com/akprathipati/316beb706c193c58bace98c6538350d8",
-      "summary/correction": "code code code!"
+      "correction": "code code code!"
     },
     {
       "name": "Chris",
       "gist": "https://gist.github.com/Chris-Ru/dac156151637be81476e1e3720adefff",
-      "summary/correction": "overall this was kinda confusing but understandable to an extent. "
+      "correction": "overall this was kinda confusing but understandable to an extent. "
     },
     {
       "name": "Dane",
       "gist": "https://gist.github.com/D1935827V/597952ba7cf55c8eda2cd93f4059036a",
-      "summary/correction": "code code code!"
+      "correction": "code code code!"
     },
     {
       "name": "Eshaan",
       "gist": "https://gist.github.com/KrispyKremeSavage/76c8389051669324e1b58945f6022ccf",
-      "summary/correction": "code code code!"
+      "correction": "code code code!"
     },
     {
       "name": "Yeonjoon",
       "gist": "https://gist.github.com/yeonjoonhong/0667b5913ec60fd4f671393bcbad8d18",
-      "summary/correction": "concepts were basically review but I needed to revisit some small learning targets to make corrections"
+      "correction": "concepts were basically review but I needed to revisit some small learning targets to make corrections"
     }
   ],
 
-  "Week 3": [{
-    "name": "Ak",
-    "gist": "https://google.com",
-    "summary/correction": "code code code!"
-  },
+  "Week 3": [
+    {
+      "name": "Ak",
+      "gist": "https://google.com",
+      "correction": "code code code!"
+    },
     {
       "name": "Chris",
       "gist": "https://gist.github.com/Chris-Ru/dac156151637be81476e1e3720adefff",
-    "summary/correction": "code code code!"
+      "correction": "code code code!"
     },
     {
       "name": "Dane",
       "gist": "https://google.com",
-    "summary/correction": "code code code!"
+      "correction": "code code code!"
     },
     {
       "name": "Eshaan",
       "gist": "https://google.com",
-    "summary/correction": "code code code!"
+      "correction": "code code code!"
     },
     {
       "name": "Yeonjoon",
       "gist": "https://google.com",
-    "summary/correction": "code code code!"
+      "correction": "code code code!"
     }
   ]
 }
