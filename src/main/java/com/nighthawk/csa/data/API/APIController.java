@@ -24,7 +24,7 @@ import java.net.http.HttpResponse;
 public class APIController {
 
     // GET request, no parameters
-    @GetMapping("/news")
+    @GetMapping("/sportsnews")
     public String News(Model model) throws IOException, InterruptedException, ParseException {
         //api setup:
         HttpRequest request = HttpRequest.newBuilder()
@@ -40,7 +40,7 @@ public class APIController {
         Object obj = new JSONParser().parse(response.body());
         JSONObject jo = (JSONObject) obj;
 
-        System.out.println(jo.get("data"));
+//        System.out.println(jo.get("data"));
         model.addAttribute("data", jo.get("data"));
 
         return "data/list-by-sport";
