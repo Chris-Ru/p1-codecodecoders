@@ -54,7 +54,7 @@
                 <tr th:each="frq: ${week2}">
                     <td th:text="${frq.name}"></td>
                     <td><a th:href="${frq.gist}" th:text="${frq.gist}"></a></td>
-                    <td th:text="${frq.output}"></td>
+                    <td th:text="${frq.summary/correction}"></td>
                 </tr>
 
             </table>
