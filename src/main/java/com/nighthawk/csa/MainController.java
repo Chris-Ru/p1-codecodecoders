@@ -26,19 +26,18 @@ public class MainController {
 
     @GetMapping("/image")
     public String image(Model model)  {
-        //String web_server = "http://localhost:8080/";
-        String web_server = "https://csa.nighthawkcodingsociety.com";
+        String web_server = "http://p1-coders.cf:5000/";
         List<ImageInfo> lii = new ArrayList<>();
 
-        String file0 = "/images/Mona_Lisa.png";
+        String file0 = "/images/picOfYeonjoon.png";
         lii.add(new ImageInfo(file0, web_server+file0, 12));
         lii.get(0).read_image();
 
-        String file1 = "/images/bulb_on.gif";
+        String file1 = "/images/ChrisAbout.png";
         lii.add(new ImageInfo(file1, web_server+file1, 2));
         lii.get(1).read_image();
 
-        String file2 = "/images/bulb_off.png";
+        String file2 = "/images/EshaanAbout.jpg";
         lii.add(new ImageInfo(file2, web_server+file2, 7));
         lii.get(2).read_image();
 
@@ -46,16 +45,23 @@ public class MainController {
         return "starters/image";
     }
 
-    @GetMapping("/image/grayscale")
-    public String image_grayscale(Model model) {
-        //String web_server = "http://localhost:8080/";
-        String web_server = "https://csa.nighthawkcodingsociety.com";
+    @GetMapping("/grayscale")
+    public String image_grayscale(@RequestParam(name="gray", required=false, defaultValue ="false") boolean gray, Model model) {
+        String web_server = "http://p1-coders:5000/";
         List<ImageInfo> lii = new ArrayList<>();
 
-        String file0 = "/images/Mona_Lisa.png";
+        String file0 = "/images/picOfYeonjoon.png";
         lii.add(new ImageInfo(file0, web_server+file0, 12));
         String str = lii.get(0).grayscale();
+
+        String file1 = "/images/ncs_logo.png";
+        lii.add(new ImageInfo(file1, web_server+file1, 12));
+        String str1 = lii.get(1).grayscale();
+
+
         model.addAttribute("str", str);
+        model.addAttribute("str1", str1);
+        model.addAttribute("file", gray);
         return "starters/image_grayscale";
     }
 
