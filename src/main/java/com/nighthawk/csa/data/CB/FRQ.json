@@ -3,54 +3,54 @@
     {
       "name": "Ak",
       "gist": "https://gist.github.com/akprathipati/316beb706c193c58bace98c6538350d8",
-      "output": "code code code!"
+      "summary/correction": "code code code!"
     },
     {
       "name": "Chris",
       "gist": "https://gist.github.com/Chris-Ru/dac156151637be81476e1e3720adefff",
-      "output": "code code code!"
+      "summary/correction": "code code code!"
     },
     {
       "name": "Dane",
       "gist": "https://google.com",
-      "output": "code code code!"
+      "summary/correction": "code code code!"
     },
     {
       "name": "Eshaan",
       "gist": "https://gist.github.com/KrispyKremeSavage/76c8389051669324e1b58945f6022ccf",
-      "output": "code code code!"
+      "summary/correction": "code code code!"
     },
     {
       "name": "Yeonjoon",
       "gist": "https://gist.github.com/yeonjoonhong/0667b5913ec60fd4f671393bcbad8d18",
-      "output": "code code code!"
+      "summary/correction": "code code code!"
     }
   ],
 
   "Week 3": [{
     "name": "Ak",
     "gist": "https://google.com",
-    "output": "code code code!"
+    "summary/correction": "code code code!"
   },
     {
       "name": "Chris",
       "gist": "https://gist.github.com/Chris-Ru/dac156151637be81476e1e3720adefff",
-      "output": "code code code!"
+    "summary/correction": "code code code!"
     },
     {
       "name": "Dane",
       "gist": "https://google.com",
-      "output": "code code code!"
+    "summary/correction": "code code code!"
     },
     {
       "name": "Eshaan",
       "gist": "https://google.com",
-      "output": "code code code!"
+    "summary/correction": "code code code!"
     },
     {
       "name": "Yeonjoon",
       "gist": "https://google.com",
-      "output": "code code code!"
+    "summary/correction": "code code code!"
     }
   ]
 }
