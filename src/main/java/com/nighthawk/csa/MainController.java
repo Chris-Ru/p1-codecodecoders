@@ -70,12 +70,6 @@ public class MainController {
         return "starters/binary";
     }
 
-
-    @GetMapping("/about")
-    public String about(){
-        return "about";
-    }
-
     @GetMapping("/deploy")
     public String deploy(){
         return "deploy";
